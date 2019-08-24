@@ -58,8 +58,7 @@
 										You have been logged out.
 									</div>
 								</c:if>
-								    
-					            </div>
+								    			            </div>
 					        </div>
 					    </div>
 
