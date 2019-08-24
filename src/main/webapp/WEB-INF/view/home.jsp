@@ -25,7 +25,6 @@
 			<br><br>
 			Role(s); <security:authentication property="principal.authorities"/>
 		</p>	
-	<hr>
 
 		<security:authorize access="hasRole('MANAGER')">
 		
