@@ -11,8 +11,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	
 	<!-- Reference Bootstrap files -->
-	<link rel="stylesheet"
-		 href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
 	
@@ -45,7 +44,6 @@
 					            <div>
 										
 								<!-- Check for login error -->
-	
 								<c:if test="${param.error != null}">
 
 									<div class="alert alert-danger col-xs-offset-1 col-xs-10">
@@ -54,12 +52,13 @@
 								
 								</c:if>
 																	
-									<!--		            
+								<!-- Check for logout -->
+								<c:if test="${param.logout != null}">	            
 									<div class="alert alert-success col-xs-offset-1 col-xs-10">
 										You have been logged out.
 									</div>
-								    -->
-
+								</c:if>
+								    
 					            </div>
 					        </div>
 					    </div>
